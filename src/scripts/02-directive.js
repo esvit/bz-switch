@@ -5,7 +5,7 @@ app.directive('bzSwitch', ['$parse', function($parse) {
         restrict: 'A',
         require: 'ngModel',
         link: function(scope, element, attrs, ngModel) {
-            var callback = $parse(attrs.bzSwitcher);
+            var callback = $parse(attrs.bzSwitch);
 
             var onChange = function() {
                 ngModel.$setViewValue(checkbox.bootstrapSwitch('status'));
