@@ -1,0 +1,19 @@
+{
+  "name": "bz-switch",
+  "version": "0.1.0",
+  "main": [
+    "bz-switch.js",
+    "bz-switch.css"
+  ],
+  "ignore": [
+    "examples",
+    "src"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.0-rc.2",
+    "jquery": ">=1.10.2"
+  },
+  "devDependencies": {
+    "angular-mocks": "1.2.0-rc.2"
+  }
+}
